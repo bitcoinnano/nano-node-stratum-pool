@@ -1,4 +1,4 @@
-# Bitcoin Nano and Zclassic - Node Open Mining Portal
+# Bitcoin Nano - Node Open Mining Portal
 
 
 This is a Equihash mining pool based off of Node Open Mining Portal.
