@@ -1,5 +1,5 @@
 html, button, input, select, textarea, .pure-g [class *= "pure-u"], .pure-g-r [class *= "pure-u"]{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PingFang SC Regular','microsoft Yahei',sans-serif;
 }
 
 html{
@@ -13,7 +13,9 @@ body{
     max-width: 1160px;
     margin: 0 auto;
 }
-
+header {
+    margin: 8px 0;
+}
 header > .home-menu{
     background: inherit !important;
     height: 54px;
@@ -38,10 +40,15 @@ header > .home-menu > ul > li > a{
 
 header > .home-menu > ul > li > a:hover, header > .home-menu > ul > li > a:focus{
     background: inherit !important;
+    outline: none;
 }
 
 header > .home-menu > ul > li > a:hover, header > .home-menu > ul > li.pure-menu-selected > a{
-    color: white;
+    color: #f79826;
+}
+
+a:hover, a:focus{
+    outline: none;
 }
 
 main{
@@ -54,24 +61,37 @@ footer{
     color: #b3b3b3;
     text-decoration: none;
     font-size: 0.8em;
-    padding: 15px;
+    padding: 25px;
     line-height: 24px;
 }
 
-footer a{
+footer .copyright{
     color: #fff;
     text-decoration: none;
+}
+
+footer .copyright:hover{
+    color:#f79826;
+}
+footer .copyright:before{
+    content: '';
+    display: inline-block;
+    background: url(mail.png) no-repeat center;
+    background-size: 100%;
+    vertical-align: text-bottom;
+    width: 25px;
+    height: 18px;
+    margin: 0 10px 0 40px;
 }
 
 footer iframe{
     vertical-align: middle;
 }
 
-
 .home {
     content:'';
-    width:180px;
-    height:54px;
+    width:120px;
+    height:36px;
     background: url(logo-pool.png) no-repeat center;
     background-size:100%;
     display:inline-block;
