@@ -1,41 +1,7 @@
-# Zcash® and Zclassic - Node Open Mining Portal
+# Bitcoin Nano and Zclassic - Node Open Mining Portal
 
-**[Click here for the official - Zcash® Zclassic, Bitcoin Gold Stratum Mining Pool Installation Guide](https://zdeveloper.org/wiki:z-nomp_install)**
 
 This is a Equihash mining pool based off of Node Open Mining Portal.
-
-Donations for development are greatly appreciated!
-  * BTC: 12Yc3Ezayhnm4X9x3nxV7vWY1h2qpWgajc, 18vHMxVzotQ9EPyESrf7Z1hNM9AwJeVHgD
-  * ZCL: zcXDWbgReztLLXSTUMT2nEumiDM6zTzUXFb7vUnx9JNfJDVqbodyxwEQwgDkFw7Dp128tBU8n8rmVxT43DshmeTEM4LHcdz
-
-#### Production Usage Notice
-This is beta software. All of the following are things that can change and break an existing Z-NOMP setup: functionality of any feature, structure of configuration files and structure of redis data. If you use this software in production then *DO NOT* pull new code straight into production usage because it can and often will break your setup and require you to tweak things like config files or redis data. *Only tagged releases are considered stable.*
-
-#### Paid Solution
-Usage of this software requires abilities with sysadmin, database admin, coin daemons, and sometimes a bit of programming. Running a production pool can literally be more work than a full-time job. 
-
-
-### Community / Support
-IRC
-* Support / general discussion join: https://gitter.im/zclassicorg/z-nomp
-
-If your pool uses Z-NOMP let us know and we will list your website here.
-
-### Some pools using Z-NOMP or node-stratum-module:
-
-http://pool.gold - Bitcoin Gold Pool
-
-https://pool.cryptobroker.io/zcl Running MPOS and 0.5% of the fee goes to the Zclassic donation fund! 200+ blocks have been found as well! 
-
-http://luckpool.org Zcash Pool with Custom Frontend w/Miner's Jackpot
-
-http://zclmine.com/ Custom frontend
-
-http://zclassic.miningspeed.com Custom frontend and 0% fee
-
-https://zpool.it 0.5% fee
-
-http://miningpool.io/
 
 Usage
 =====
@@ -59,9 +25,9 @@ you are using - a good place to start with redis is [data persistence](http://re
 Follow the build/install instructions for your coin daemon. Your coin.conf file should end up looking something like this:
 ```
 daemon=1
-rpcuser=zclassicrpc
+rpcuser=btcnano
 rpcpassword=securepassword
-rpcport=8232
+rpcport=9657
 ```
 For redundancy, its recommended to have at least two daemon instances running in case one drops out-of-sync or offline,
 all instances will be polled for block/transaction updates and be used for submitting blocks. Creating a backup daemon
@@ -82,13 +48,13 @@ Clone the repository and run `npm update` for all the dependencies to be install
 sudo apt-get install build-essential libsodium-dev npm
 sudo npm install n -g
 sudo n stable
-git clone https://github.com/poolgold/z-nomp-bitcoin-gold.git z-nomp-bitcoin-gold
-cd z-nomp-bitcoin-gold
+git clone https://github.com/bitcoinnano/nano-node-stratum-pool.git nano-node-stratum-pool
+cd nano-node-stratum-pool
 npm update
 npm install
 ```
 
-##### Pool config
+##### 2) Pool config
 Take a look at the example json file inside the `pool_configs` directory. Rename it to `zclassic.json` and change the
 example fields to fit your setup.
 

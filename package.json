@@ -1,7 +1,7 @@
 {
-    "name": "z-nomp",
+    "name": "btcnano-pool",
     "version": "0.0.4",
-    "description": "Bitcoin Gold (Equihash) stratum mining pool based on NOMP",
+    "description": "Btcnano Gold (Equihash) stratum mining pool based on NOMP",
     "keywords": [
         "stratum",
         "mining",
