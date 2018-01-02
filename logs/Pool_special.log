@@ -1,0 +1,18 @@
+2018-01-01 12:48:29 [Pool] [bitcoin nano] - Stratum Pool Server Started for bitcoin nano [BTN] {equihash}
+						Network Connected:	Mainnet
+						Detected Reward Type:	POW
+						Current Block Height:	227
+						Current Block Diff:	9.628620227
+						Current Connect Peers:	19
+						Network Hash Rate:	0.18 KH
+						Stratum Port(s):	3333
+						Block polling every:	500 ms
+2018-01-01 12:50:19 [Pool] [bitcoin nano] - Stratum Pool Server Started for bitcoin nano [BTN] {equihash}
+						Network Connected:	Mainnet
+						Detected Reward Type:	POW
+						Current Block Height:	227
+						Current Block Diff:	9.628620227
+						Current Connect Peers:	19
+						Network Hash Rate:	0.18 KH
+						Stratum Port(s):	3333
+						Block polling every:	500 ms
