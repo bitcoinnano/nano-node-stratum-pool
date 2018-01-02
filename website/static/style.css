@@ -70,8 +70,8 @@ footer iframe{
 
 .home {
     content:'';
-    width:120px;
-    height:36px;
+    width:180px;
+    height:54px;
     background: url(logo-pool.png) no-repeat center;
     background-size:100%;
     display:inline-block;

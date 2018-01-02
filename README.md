@@ -55,7 +55,7 @@ npm install
 ```
 
 ##### 2) Pool config
-Take a look at the example json file inside the `pool_configs` directory. Rename it to `zclassic.json` and change the
+Take a look at the example json file inside the `pool_configs` directory. Rename it to `btcnano.json` and change the
 example fields to fit your setup.
 
 ```
@@ -73,9 +73,9 @@ ie: Miner 1 mines at 0.1 difficulty and finds 10 shares, the pool sees it as 1 s
 ```
 node [path to cli.js] [coin name in config] [block hash symbol]
 ```
-Example: inside `zclassic.conf` add the line
+Example: inside `btcnano.conf` add the line
 ```
-blocknotify=node /home/user/z-nomp/scripts/cli.js blocknotify zclassic %s
+blocknotify=node /home/user/z-nomp/scripts/cli.js blocknotify btcnano %s
 ```
 
 Alternatively, you can use a more efficient block notify script written in pure C. Build and usage instructions
@@ -97,9 +97,8 @@ for exploring your redis database.
 output from Z-NOMP.
 * Use [New Relic](http://newrelic.com/) to monitor your Z-NOMP instance and server performance.
 
-
 #### Upgrading Z-NOMP
-When updating Z-NOMP to the latest code its important to not only `git pull` the latest from this repo, but to also update
+Our bitcoin nano pool based on Z-nomp. When updating Z-NOMP to the latest code its important to not only `git pull` the latest from this repo, but to also update
 the `node-stratum-pool` and `node-multi-hashing` modules, and any config files that may have been changed.
 * Inside your Z-NOMP directory (where the init.js script is) do `git pull` to get the latest Z-NOMP code.
 * Remove the dependenices by deleting the `node_modules` directory with `rm -r node_modules`.
