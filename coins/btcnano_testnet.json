@@ -1,0 +1,7 @@
+{
+    "name": "Bitcoin Nano",
+    "symbol": "BTN",
+    "algorithm": "equihash",
+    "txfee": 0.000005
+}
+

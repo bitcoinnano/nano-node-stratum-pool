@@ -1,1 +1,6 @@
 2018-01-02 13:13:24 [Payments] [bitcoin nano] - Finished interval - time spent: 7ms total, 4ms redis, 3ms daemon RPC
+2018-01-02 13:14:21 [Payments] [bitcoin nano] - Finished interval - time spent: 6ms total, 2ms redis, 4ms daemon RPC
+2018-01-02 13:15:18 [Payments] [bitcoin nano] - Finished interval - time spent: 6ms total, 1ms redis, 3ms daemon RPC
+2018-01-02 13:16:15 [Payments] [bitcoin nano] - Finished interval - time spent: 5ms total, 1ms redis, 3ms daemon RPC
+2018-01-02 13:17:12 [Payments] [bitcoin nano] - Finished interval - time spent: 6ms total, 0ms redis, 3ms daemon RPC
+2018-01-02 13:18:09 [Payments] [bitcoin nano] - Finished interval - time spent: 5ms total, 2ms redis, 3ms daemon RPC
