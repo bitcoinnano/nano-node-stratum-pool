@@ -2,13 +2,13 @@
     "enabled":true,
     "coin": "btcnano.json",
 
-    "address": "NgyRcp6WMjzFLujhAtSTLkruZJMxNuAak3",
+    "address": "NMvGGEpWRZFmkiMkvAkinh9uhrC9wppe77",
     "_comment_address": "pools btcnano address; ex, NXuw7NYX4o74cnxtykkAF2sgQTq8LZvjUC",
 
-    "zAddress": "NXuw7NYX4o74cnxtykkAF2sgQTq8LZvjUC",
+    "zAddress": "NMvGGEpWRZFmkiMkvAkinh9uhrC9wppe77",
     "_comment_zAddress": "shielding not required in btcnano, not used",
 
-    "tAddress": "NgyRcp6WMjzFLujhAtSTLkruZJMxNuAak3",
+    "tAddress": "NMvGGEpWRZFmkiMkvAkinh9uhrC9wppe77",
     "_comment_tAddress": "set to same as pools btcnano address; ex, NXuw7NYX4o74cnxtykkAF2sgQTq8LZvjUC",
 
     "walletInterval": 1,
@@ -37,8 +37,8 @@
         "daemon": {
             "host": "127.0.0.1",
             "port": 9657,
-            "user": "bitnano123",
-            "password": "12345678"
+            "user": "tanshuang",
+            "password": "tan07060112"
         }
     },
 
@@ -60,8 +60,8 @@
         {
             "host": "127.0.0.1",
             "port": 9657,
-            "user": "bitnano123",
-            "password": "12345678"
+            "user": "tanshuang",
+            "password": "tan07060112"
         }
     ],
 
