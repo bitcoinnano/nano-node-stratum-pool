@@ -1405,15 +1405,15 @@ function SetupForPool(logger, poolOptions, setupFinished){
     var getProperAddress = function(address){
 
         if (address.length < 25 || address.length > 34) {
-            return (poolOptions.invalidAddress || (poolOptions.testnet === true ? "n1nKYxXxND5ejxCeA38LQATDuCqnCG1E1y" : "GbmcUSDpqKfHLV4aiYbpLRZypLkANRfmu6"));
+            return (poolOptions.invalidAddress || ("NRdwTenemSSGapXk7UAM8uWWdFyDD6SWwP"));
         }
+//Don't think testnet
+   //     if (poolOptions.testnet === true && address[0] !== 'm' && address[0] !== 'n' && address[0] !== '2') {
+     //       return (poolOptions.invalidAddress || "n1nKYxXxND5ejxCeA38LQATDuCqnCG1E1y");
+      //  }
 
-        if (poolOptions.testnet === true && address[0] !== 'm' && address[0] !== 'n' && address[0] !== '2') {
-            return (poolOptions.invalidAddress || "n1nKYxXxND5ejxCeA38LQATDuCqnCG1E1y");
-        }
-
-        if (poolOptions.testnet === false && address[0] !== 'G' && address[0] !== 'A') {
-            return (poolOptions.invalidAddress || "GbmcUSDpqKfHLV4aiYbpLRZypLkANRfmu6");
+        if (poolOptions.testnet === false && address[0] !== 'N') {
+            return (poolOptions.invalidAddress || "NRdwTenemSSGapXk7UAM8uWWdFyDD6SWwP");
         }
 
         return address;
